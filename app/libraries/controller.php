@@ -1,7 +1,7 @@
 <?php
 //main controller that will allow us to load other models and views
 
-class controller
+class Controller
 {
     public function model($model)
     {

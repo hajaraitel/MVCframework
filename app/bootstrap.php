@@ -1,5 +1,8 @@
 <?php
-//this file will load all the necessary files for our application
-require_once 'libraries/Database.php';
-require_once 'libraries/Core.php';
-require_once 'libraries/Controller.php';
+//Load Config
+require_once 'config/config.php';
+
+//Autoload core libraries
+spl_autoload_register(function($classname){
+    require_once 'libraries/'.$classname.'.php';
+});
