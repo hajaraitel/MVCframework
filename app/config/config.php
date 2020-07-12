@@ -1,13 +1,13 @@
 <?php
 //DB params
-define('DB_HOST','localhost:3308');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','oficina_db');
+define('DB_HOST','localhost');
+define('DB_USER','YOUR_USER');
+define('DB_PASS','YOUR_PASS');
+define('DB_NAME','YOUR_DB');
 
 //App root
 define('APPROOT',dirname(dirname(__FILE__)));
 //URL root
-define('URLROOT','http://localhost/MVCframework');
+define('URLROOT','YOUR_URL'); //EX /http://localhost/MVCframework
 //SITE name
-define('SITENAME','MVCframework');
+define('SITENAME','YOUR_SITENAME');
